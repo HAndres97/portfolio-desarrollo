@@ -1,5 +1,3 @@
-¡Por supuesto! He procesado todo el contenido de la **Guía rápida de Markdown (Sintaxis clásica y de GitHub / MoureDev Pro)** y lo he formateado en código **Markdown nativo y limpio**, listo para copiar directamente a un archivo `.md` de tu repositorio de GitHub.
-
 ---
 
 ````markdown
@@ -42,7 +40,8 @@ Se admiten hasta seis niveles de encabezado mediante la almohadilla (`#`)[cite: 
 
 ###### Título de nivel 6
 ```
-````
+
+`````
 
 ---
 
@@ -162,7 +161,7 @@ Permiten destacar o citar texto, pudiendo anidarse añadiendo más símbolos `>`
   </body>
 </html>
 ```
-````
+`````
 
 ````
 
