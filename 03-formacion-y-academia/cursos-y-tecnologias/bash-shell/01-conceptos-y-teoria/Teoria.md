@@ -1,9 +1,3 @@
-¡Genial! Me alegro mucho de que te haya servido la guía.
-
-Para que **GitHub** interprete y muestre el Markdown de forma nativa con todo su formato (tablas, negritas, bloques de código interactivos y cajas de aviso), aquí tienes el código **Markdown puro**.
-
-Puedes copiar el siguiente bloque directamente dentro de tu archivo `README.md` o cualquier archivo `.md` en tu repositorio:
-
 ````markdown
 # 📚 Guía Profesional y Referencia de Bash & Linux Shell
 
