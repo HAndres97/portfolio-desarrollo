@@ -15,5 +15,5 @@ Una utilidad de línea de comandos robusta escrita en Bash para obtener un repor
 1. Clona el repositorio.
 2. Otorga permisos de ejecución:
    ```bash
-   chmod +x 01_sistema_info.sh
+   chmod +x sistema_info_v2.sh
 Ejecuta la herramienta:
