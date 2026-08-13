@@ -1,8 +1,3 @@
-¡Por supuesto! Aquí tienes la **Guía Definitiva de Buenas Prácticas en Python** redactada en código **Markdown puro**, lista para copiar y pegar directamente dentro de un archivo `.md` (por ejemplo, `BUENAS_PRACTICAS_PYTHON.md`) en tu repositorio.
-
-Esta guía está basada en la norma oficial **PEP 8**, principios **SOLID**, patrones de diseño modernos y técnicas utilizadas en proyectos profesionales de backend y ciencia de datos.
-
-````markdown
 # 🐍 Guía Profesional de Buenas Prácticas en Python
 
 Una referencia completa y práctica sobre estándares de código, arquitectura, tipado, rendimiento y seguridad para escribir código Python limpio, mantenible y profesional (_Pythonic Code_).
@@ -63,7 +58,6 @@ def buscar_usuario(usuario_id: int) -> Optional[Dict[str, str]]:
         return {"nombre": "Andrés", "rol": "DevOps"}
     return None
 ```
-````
 
 ---
 
@@ -184,7 +178,7 @@ def leer_log_gigante(ruta_archivo: str):
 
 ### C) Desempaquetado y Funciones Útiles (`enumerate`, `zip`)
 
-```bash
+```python
 # Iterar obteniendo índice y elemento a la vez
 nombres = ["Ana", "Carlos", "Pedro"]
 for i, nombre in enumerate(nombres, start=1):
@@ -285,7 +279,7 @@ mypy src/
 
 > [!TIP]
 >
-> 1. **Usa Type Hints** en los argumentos y salidas de todas tus funciones publicas.
+> 1. **Usa Type Hints** en los argumentos y salidas de todas tus funciones públicas.
 > 2. **Documenta con Docstrings** de formato Google o NumPy el propósito de clases y métodos complejos.
 > 3. **Aplica principios SOLID:** Funciones cortas que realicen una única tarea (_Single Responsibility Principle_).
 > 4. **Evita la mutabilidad por defecto:** Nunca uses objetos mutables (listas `[]` o diccionarios `{}`) como argumentos por defecto en funciones; usa `None`.
@@ -293,12 +287,17 @@ mypy src/
 > ```python
 > # ❌ MAL:
 > def agregar(item, lista=[]): ...
+>
 > # ✅ BIEN:
 > def agregar(item, lista=None):
 >     if lista is None:
 >         lista = []
 >
 > ```
+
+```
+
+```
 
 ```
 
