@@ -1,10 +1,3 @@
----
-
-### 🛠️ Código corregido listo para copiar y pegar
-
-Aquí tienes **todo el documento arreglado y pulido**:
-
-```markdown
 # Apuntes de Python: Listas y Estructuras de Secuencia
 
 En Python, las **listas** (`list`) son colecciones **ordenadas, mutables y heterogéneas** de elementos. A diferencia de las cadenas de texto (_strings_) que son inmutables, las listas permiten modificar, agregar, reordenar y eliminar sus elementos directamente en memoria (_in-place_) sin necesidad de crear un nuevo objeto.
