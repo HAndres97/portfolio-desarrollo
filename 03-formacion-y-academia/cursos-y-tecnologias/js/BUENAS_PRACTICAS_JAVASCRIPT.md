@@ -1,8 +1,3 @@
-¡Por supuesto! Aquí tienes la **Guía Profesional de Buenas Prácticas en JavaScript** redactada en código **Markdown puro**, lista para copiar y pegar directamente en un archivo `.md` (por ejemplo, `BUENAS_PRACTICAS_JAVASCRIPT.md`) dentro de tu repositorio.
-
-Esta guía abarca desde las sintaxis modernas de **ES6+**, asincronía (`async/await`), manejo limpio de errores, hasta arquitectura y optimización de rendimiento en el ecosistema actual.
-
-````markdown
 # 🟨 Guía Profesional de Buenas Prácticas en JavaScript (ES6+)
 
 Una referencia completa y práctica sobre estándares de código, manejo de asincronía, tipado, optimización y arquitectura limpia en JavaScript moderno.
@@ -27,7 +22,6 @@ const NOMBRE = "Carlos"; // Constante con valor inmutable
 let edad = 25; // Cambiará con el tiempo
 edad = 26;
 ```
-````
 
 ---
 
@@ -251,6 +245,10 @@ Para garantizar un estándar profesional uniforme en tus proyectos JavaScript:
 > 2. **Evita la Mutación del Estado:** Trabaja de forma inmutable devolviendo nuevas copias de objetos/arrays.
 > 3. **Gestión Limpia de Errores:** Valida las entradas e implementa bloques `try/catch` alrededor de operaciones I/O o red.
 > 4. **Considera evolucionar a TypeScript:** Para proyectos de gran escala, TypeScript añade un sistema de tipado estático sobre JS que previene el 90% de los errores en tiempo de compilación.
+
+```
+
+```
 
 ```
 
